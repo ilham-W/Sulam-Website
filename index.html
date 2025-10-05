@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulam - Discover Your Child's Hobby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sulam!</h1>
+        <p>Find hobbies that match your child’s personality.</p>
+    </header>
+
+    <section id="personality-test">
+        <h2>Take the Personality Test</h2>
+        <form id="testForm">
+            <label>Does your child prefer indoor activities?</label>
+            <select id="q1">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+            <br><br>
+            <button type="button" onclick="calculateResult()">See Result</button>
+        </form>
+        <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
